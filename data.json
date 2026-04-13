@@ -397,14 +397,18 @@
     {
       "rank": 25,
       "name": "Ruben Somsen",
-      "affiliation": "Independent",
-      "role": "BIP Editor",
-      "quantum_urgency_score": 1,
-      "pq_work_volume": 0,
-      "notable": false,
-      "summary": "No public statements on quantum risk; BIP editor",
-      "key_source": null,
-      "sources": []
+      "affiliation": "Independent/Spacechains",
+      "role": "BIP Editor/Protocol Researcher",
+      "quantum_urgency_score": 3,
+      "pq_work_volume": 1,
+      "notable": true,
+      "summary": "Co-author of Silent Payments (BIP-352). Contends that eliminating address reuse is a primary architectural defense against quantum surveillance, as it keeps the recipient’s public key hashed and unexposed until the point of spend. While his work on Spacechains and Statechains is focused on scaling and censorship resistance, these Layer 2 frameworks provide a potential environment for implementing upgradeable post-quantum signature schemes without requiring a base-layer soft fork. Prioritizes privacy-preserving primitives as a critical stop-gap for Bitcoin's long-term security.",
+      "key_source": "https://bitcoinmagazine.com/technical/silent-payments-improve-privacy-without-bitcoin-data",
+      "sources": [
+        "https://bitcoinmagazine.com/technical/silent-payments-improve-privacy-without-bitcoin-data",
+        "https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki",
+        "https://www.youtube.com/watch?v=UY8CDEpg5_U"
+      ]
     },
     {
       "rank": 26,
